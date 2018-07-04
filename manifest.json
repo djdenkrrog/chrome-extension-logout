@@ -1,0 +1,27 @@
+{
+  "name": "Auto logout google",
+  "version": "0.2",
+  "description": "The Auto logout google account",
+  "permissions": [
+    "cookies",
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "img/on.png",
+    "48": "img/on.png",
+    "128": "img/on.png"
+  },
+  "browser_action": {
+    "default_icon": "img/off.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
